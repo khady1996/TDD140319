@@ -74,7 +74,7 @@ public class EtudiantDao {
 		bd.seConnecter();
 
 		try {
-			String requete = "UPDATE `Etudiant` SET `email` = '" + etu.getEmail() + "' WHERE `idEtu` = '" + etu.getId() + "';";
+			String requete = "UPDATE `Etudiant` SET `prenom` = '"+etu.getPrenom()+"', `nom` = '"+etu.getNom()+"',`email` = '" + etu.getEmail() + "' WHERE `idEtu` = '" + etu.getId() + "';";
 
 			rs = bd.st.executeUpdate(requete);
 
