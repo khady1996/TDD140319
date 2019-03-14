@@ -142,6 +142,7 @@ public class EtudiantDao {
 		bd.seDeconnecter();
 
 		return listetu;
+		
 	}
 
 
