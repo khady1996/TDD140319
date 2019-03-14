@@ -1,0 +1,7 @@
+14-03-2019
+Scénario n°1 : scenarioCreationEtudiant : la création d’un étudiant génère un enregistrement en base. La valeur de chaque champ correspond  
+Scénario n°2 : scenarioLectureEtudiantbyId : la lecture d’un étudiant à partir de son identifiant renvoie l’ensemble des caractéristiques de l’étudiant
+Scénario n°3 : scenarioModificationEtudiant : la modification d’un étudiant entraîne le changement de la valeur des champs de l’enregistrement en base.
+Chaque champ est mise à jour avec la valeur de la propriété correspondant à ce champ.
+Scénario n°4: scenarioSuppressionEtudiant : la suppression d’un étudiant à partir de son identifiant entraine le retrait de l’enregistrement correspondant à l’identifiant de l’étudiant qu’on veut supprimer en base
+Scénario n°5 : scenarioLectureListeEtudiants : La lecture de l’ensemble des étudiants de la base gènère une liste d’étudiants dont la taille doit correspondre aux nombres d’enregistrement en base.
